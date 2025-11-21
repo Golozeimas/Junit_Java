@@ -2,6 +2,7 @@ package test.java.br.icev.vendas;
 
 
 import main.java.br.icev.vendas.Carrinho;
+import main.java.br.icev.vendas.PoliticaDesconto;
 import main.java.br.icev.vendas.Produto;
 import main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
 import org.junit.jupiter.api.Test;

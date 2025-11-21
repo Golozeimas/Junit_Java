@@ -1,8 +1,9 @@
-package br.icev.vendas;
+package test.java.br.icev.vendas;
 
-import br.icev.vendas.excecoes.ErroPagamentoException;
-import br.icev.vendas.excecoes.QuantidadeInvalidaException;
-import br.icev.vendas.excecoes.SemEstoqueException;
+import main.java.br.icev.vendas.*;
+import main.java.br.icev.vendas.excecoes.ErroPagamentoException;
+import main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
+import main.java.br.icev.vendas.excecoes.SemEstoqueException;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;

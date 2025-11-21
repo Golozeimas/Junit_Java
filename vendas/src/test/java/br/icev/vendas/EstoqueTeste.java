@@ -1,7 +1,9 @@
 package br.icev.vendas;
 
-import br.icev.vendas.excecoes.QuantidadeInvalidaException;
-import br.icev.vendas.excecoes.SemEstoqueException;
+
+import main.java.br.icev.vendas.Estoque;
+import main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
+import main.java.br.icev.vendas.excecoes.SemEstoqueException;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
