@@ -20,8 +20,19 @@ public class Pedido {
         this.status = status;
     }
 
-    public BigDecimal getTotalPago() { throw new UnsupportedOperationException("TODO"); }
-    public String getCodigoAutorizacao() { throw new UnsupportedOperationException("TODO"); }
-    public Status getStatus() { throw new UnsupportedOperationException("TODO"); }
-    public int getQuantidadeItem(String codigo) { throw new UnsupportedOperationException("TODO"); }
+    public BigDecimal getTotalPago() {
+        return totalPago;
+    }
+
+    public String getCodigoAutorizacao() {
+        return codigoAutorizacao;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public int getQuantidadeItem(String codigo) {
+        return itensPorCodigo.getOrDefault(codigo, 0);
+    }
 }
