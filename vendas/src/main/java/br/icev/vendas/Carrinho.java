@@ -44,10 +44,17 @@ public class Carrinho {
     }
 
     public BigDecimal getTotalCom(PoliticaDesconto politica) {
-        throw new UnsupportedOperationException("TODO");
+        BigDecimal subtotal = getSubtotal();
+        BigDecimal total = politica.aplicar(subtotal);
+        if (total.compareTo(BigDecimal.ZERO) < 0) {
+            return BigDecimal.ZERO.setScale(2, RoundingMode.HALF_UP);
+        }
+        return total.setScale(2, RoundingMode.HALF_UP);
     }
 
     public int getTotalItens() {
-        throw new UnsupportedOperationException("TODO");
+        return quantidades.values().stream()
+                .mapToInt(Integer::intValue)
+                .sum();
     }
 }
