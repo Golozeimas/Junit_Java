@@ -1,7 +1,7 @@
 package main.java.br.icev.vendas;
 
 
-import vendas.src.main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
+import main.java.br.icev.vendas.excecoes.QuantidadeInvalidaException;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,6 +1,6 @@
-package br.icev.vendas;
+package main.java.br.icev.vendas;
+import main.java.br.icev.vendas.excecoes.ErroPagamentoException;
 
-import br.icev.vendas.excecoes.ErroPagamentoException;
 import java.math.BigDecimal;
 
 public interface GatewayPagamento {

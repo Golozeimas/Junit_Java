@@ -1,4 +1,4 @@
-package vendas.src.main.java.br.icev.vendas;
+package main.java.br.icev.vendas;
 
 import java.math.BigDecimal;
 import java.util.Objects;
