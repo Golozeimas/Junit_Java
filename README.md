@@ -193,9 +193,11 @@ Execute os arquivos *Teste.java como JUnit Test
 
 ## 📄 Licença
 
-Este projeto é de código aberto e está disponível sob a licença MIT.
+Este projeto é de código aberto
 
 ## ✨ Autor
+
+João Matheus Ramos Araujo
 
 Desenvolvido como projeto educacional para prática de conceitos de POO e testes automatizados.
 
